@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        *{
+            /* this is an universal selector */
+            box-sizing: border-box;
+            /* box sizing:borderbox doesnot allow to change the size of the width */
+            padding: 0px;
+            margin: 0px;
+
+        }
+        .container{
+            background-color: aquamarine;
+            border: 5px solid blue;
+            padding: 25px;
+            margin: 50px;
+            border-radius: 25px;
+            width: 500px;
+        }
+        body{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>this is an heading</h2>
+        <p id="first">this is about box model,margin and padding Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, minus. Omnis odio quos vero, eius qui laudantium incidunt. Eos nisi rem qui quod perspiciatis aut, porro eveniet molestiae veniam repellat sed, alias et totam ipsa vel adipisci quas minima commodi.</p>
+    </div>
+
+    <div class="container">
+        <h2>this is an heading</h2>
+        <p id="second">this is about box model,margin and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum animi fugit modi odio eum eos culpa, accusantium natus quam dolorem.padding</p>
+    </div>
+
+    <div class="container">
+        <h2>this is an heading</h2>
+        <p id="third">this is about box Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nulla consequuntur odit minima? Accusamus pariatur optio quae cupiditate iusto commodi magni vel velit expedita voluptas. model,margin and padding</p>
+    </div>
+</body>
+</html>
